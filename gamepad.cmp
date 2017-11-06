@@ -1,0 +1,203 @@
+Cmp-Mod V01 Created by PcbNew   date = Fri 03 Nov 2017 18:54:50 GMT
+
+BeginCmp
+TimeStamp = 59FCAAF2
+Path = /59FC96A4
+Reference = SW1_2;
+ValeurCmp = SW_SPST_LED;
+IdModule  = CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAAC0
+Path = /59FCA138
+Reference = RC1;
+ValeurCmp = R;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAAC6
+Path = /59FCA715
+Reference = RC2;
+ValeurCmp = R;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAACC
+Path = /59FCAA4E
+Reference = RC3;
+ValeurCmp = R;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAAD2
+Path = /59FCAEE1
+Reference = RC4;
+ValeurCmp = R;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAAD8
+Path = /59FCAF3E
+Reference = RC5;
+ValeurCmp = R;
+IdModule  = Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCABB5
+Path = /59FCAF06
+Reference = SW5_1;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCABC2
+Path = /59FCAF0C
+Reference = SW5_2;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCABCF
+Path = /59FCAF12
+Reference = SW5_3;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAAFF
+Path = /59FC9710
+Reference = SW1_3;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAAE5
+Path = /59FC959F
+Reference = SW1_1;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB0C
+Path = /59FC9716
+Reference = SW1_4;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB19
+Path = /59FCA6DD
+Reference = SW2_1;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB26
+Path = /59FCA6E3
+Reference = SW2_2;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB33
+Path = /59FCA6E9
+Reference = SW2_3;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB40
+Path = /59FCA6EF
+Reference = SW2_4;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB5A
+Path = /59FCAA1C
+Reference = SW3_2;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB4D
+Path = /59FCAA16
+Reference = SW3_1;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB74
+Path = /59FCAA28
+Reference = SW3_4;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB67
+Path = /59FCAA22
+Reference = SW3_3;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB81
+Path = /59FCAEA9
+Reference = SW4_1;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB8E
+Path = /59FCAEAF
+Reference = SW4_2;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCAB9B
+Path = /59FCAEB5
+Reference = SW4_3;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCABA8
+Path = /59FCAEBB
+Reference = SW4_4;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59FCABDC
+Path = /59FCAF18
+Reference = SW5_4;
+ValeurCmp = SW_SPST_LED;
+IdModule  = Keyboard:CherryMX_PCB_DL;
+EndCmp
+
+EndListe
