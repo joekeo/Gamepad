@@ -4,22 +4,32 @@
  #include "Keyboard.h"
  
 //Defining the column pins
-byte cPins[] = {6,5,4,8,7};
+byte cPins[] = {4,5,6,7,8};
 byte cols = sizeof(cPins);
 
 //Defining the Rows pins
-byte rPins[] = {15,14,16,10};
+byte rPins[] = {10,16,14,15};
 byte rows = sizeof(rPins);
 
 //store if the switch is presses
 bool pressed = false;
 
 //key definitions 5 Columns 4 Rows
+//comparing the hex code in the HID usb tables, it seams that arduino has a 0x88 offset in the values
 byte Key[sizeof(rPins)][sizeof(cPins)] = 
+                {{'t',        'q',              'w',   'e',                'r'},
+                 {KEY_TAB,        'a',   's', 'd',    'f'},
+                 {KEY_LEFT_SHIFT, '\\',             'z',            'x',                'c'},
+                 {KEY_LEFT_CTRL,  '1',              '2',            '3',                '4'}};
+
+/*
+ * byte Key[sizeof(rPins)][sizeof(cPins)] = 
                 {{KEY_ESC,        'q',              KEY_UP_ARROW,   'e',                'r'},
                  {KEY_TAB,        KEY_LEFT_ARROW,   KEY_DOWN_ARROW, KEY_RIGHT_ARROW,    'f'},
-                 {KEY_LEFT_SHIFT, 0x31,              'z',            'x',                'c'},
-                 {KEY_LEFT_CTRL,  '1',              '2',            '3',                0x2C}};
+                 {KEY_LEFT_SHIFT, 0x59 + 0x88,             'z',            'x',                'c'},
+                 {KEY_LEFT_CTRL,  '1',              '2',            '3',                0x2C + 0x88}};
+ * */
+ 
 
 bool oldKey [sizeof(rPins)][sizeof(cPins)] = 
                 {{false,false,false,false,false},
